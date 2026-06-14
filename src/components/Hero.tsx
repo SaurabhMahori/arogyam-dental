@@ -92,12 +92,12 @@ export default function Hero() {
             
             {/* Floating Doctor Intro Card */}
             <motion.div 
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.8, duration: 0.6 }}
-              className="absolute -bottom-6 -left-6 md:bottom-12 md:-left-12 bg-card p-5 rounded-2xl shadow-xl border border-border/50 max-w-[240px]"
-              style={{ y: [0, -10, 0] }}
-            >
+               initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.8, duration: 0.6 }}
+                 className="absolute -bottom-6 -left-6 md:bottom-12 md:-left-12 bg-card p-5 rounded-2xl shadow-xl border border-border/50 max-w-[240px]"
+
+             >
               <motion.div 
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
