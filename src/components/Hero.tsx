@@ -85,7 +85,7 @@ export default function Hero() {
             <img 
              src="/hero.png" // Apni nayi image ka naam yahan check kar lena
           alt="Warm and inviting dental clinic interior" 
-           className="absolute inset-0 w-full h-full object-cover"
+           className="absolute inset-0 w-full h-full object-contain bg-white"
             />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent mix-blend-overlay" />
              </div>
