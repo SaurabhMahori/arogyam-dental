@@ -80,15 +80,15 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
             className="relative lg:h-[700px] flex items-center justify-center"
           >
-            {/* Main Image Container */}
-            <div className="relative w-full max-w-lg aspect-[4/5] lg:aspect-auto lg:h-full rounded-[2.5rem] overflow-hidden shadow-2xl">
-              <img 
-                src="/hero.png" 
-                alt="Warm and inviting dental clinic interior" 
-                className="absolute inset-0 w-full h-full object-cover"
-              />
+           {/* Main Image Container */}
+            <div className="relative w-full max-w-lg aspect-[3/2] lg:aspect-auto lg:h-full rounded-[2.5rem] overflow-hidden shadow-2xl">
+            <img 
+             src="/hero.png" // Apni nayi image ka naam yahan check kar lena
+          alt="Warm and inviting dental clinic interior" 
+           className="absolute inset-0 w-full h-full object-cover"
+            />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent mix-blend-overlay" />
-            </div>
+             </div>
             
             {/* Floating Doctor Intro Card */}
             <motion.div 
