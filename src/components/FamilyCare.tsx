@@ -5,19 +5,19 @@ const groups = [
     title: "For Children",
     subtitle: "Gentle beginnings",
     desc: "We make early visits fun and fearless. Building good habits in a playful environment ensures a lifetime of healthy smiles without the dreaded 'dentist fear'.",
-    image: "https://images.unsplash.com/photo-1544281679-e31f0e9b986a?q=80&w=600&auto=format&fit=crop" // Placeholder until generate
+    image: "/children.png" // Placeholder until generate
   },
   {
     title: "For Adults",
     subtitle: "Complete care",
     desc: "Life is busy. We offer efficient, comprehensive care from routine cleanings to cosmetic enhancements, all tailored to your schedule and goals.",
-    image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=600&auto=format&fit=crop" // Placeholder
+    image: "/adults.png" // Placeholder
   },
   {
     title: "For Seniors",
     subtitle: "Preserving comfort",
     desc: "Compassionate care focused on maintaining function, comfort, and confidence. From restorative work to gentle maintenance, we're here to help.",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=600&auto=format&fit=crop" // Placeholder
+    image: "/seniors.png" // Placeholder
   }
 ];
 
@@ -62,3 +62,7 @@ export default function FamilyCare() {
     </section>
   );
 }
+
+
+
+
