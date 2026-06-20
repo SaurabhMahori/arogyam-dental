@@ -37,7 +37,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex flex-col relative z-50">
-            <span className="font-serif text-2xl md:text-3xl font-semibold text-foreground tracking-tight">
+            <span className="font-serif text-2xl md:text-3xl font-semibold text-white tracking-tight">
               Arogyam
             </span>
             <span className="text-xs font-medium text-primary tracking-widest uppercase mt-0.5">
@@ -62,7 +62,7 @@ export default function Navigation() {
           <div className="flex items-center gap-4 relative z-50">
             <a
               href="tel:08368504849"
-              className="hidden lg:flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="hidden lg:flex items-center gap-2 text-sm font-medium text-white hover:text-primary transition-colors"
             >
               <Phone className="w-4 h-4" />
               08368504849
