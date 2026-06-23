@@ -51,7 +51,7 @@ export default function Navigation() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200"
+                className="text-sm font-medium text-white/90 hover:text-primary transition-colors duration-200"
               >
                 {link.name}
               </a>
@@ -76,7 +76,7 @@ export default function Navigation() {
             </Button>
             
             <button
-              className="md:hidden p-2 -mr-2 text-foreground"
+              className="md:hidden p-2 -mr-2 text-white"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               data-testid="nav-mobile-toggle"
             >
